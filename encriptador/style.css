@@ -1,0 +1,174 @@
+body {
+  background-color: #ffffff;
+  font-family: "Inter", sans- serif;
+  color: #252525;
+
+  height: 100vh;
+
+  padding: 2rem;
+  margin: 0;
+}
+
+/* main {
+    background: lightslategray;
+    display: flex;
+} */
+
+.header-container {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.content-user {
+  height: 80.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.article-a1 {
+  width: 5rem;
+  height: 80rem;
+  height: 100%;
+}
+
+.article-a2 {
+  width: 200rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-a3 {
+  background: #ecedf5;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  width: 50rem;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-error {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.title-error h1 {
+  font-size: 3rem;
+}
+
+.title-error p {
+  font-size: 1.5rem;
+  color: #252525;
+}
+
+.button-copy  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Copiar {
+  background: rgba(216, 223, 232, 1);
+  border: solid rgba(10, 56, 113, 1) 1px;
+  color: rgba(10, 56, 113, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  width: 32rem;
+  cursor: pointer;
+}
+
+.input-user {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-user input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  color: rgba(10, 56, 113, 1);
+  font-size: 3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+
+.actions-user {
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-actions {
+  display: flex;
+  width: 65.8rem;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.title-actions h2 {
+  color: rgba(73, 80, 87, 1);
+}
+
+.buttons {
+  width: 66.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#criptografar {
+  background: rgba(10, 56, 113, 1);
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  width: 32rem;
+  cursor: pointer;
+}
+
+#descriptografar {
+  background: rgba(216, 223, 232, 1);
+  border: solid rgba(10, 56, 113, 1) 1px;
+  color: rgba(10, 56, 113, 1);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  width: 32rem;
+  cursor: pointer;
+}
+
+footer {
+  height: 8rem;
+  background: #ecedf4;
+  color: rgba(10, 56, 113, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <img src="imgs/Logo.png" alt="Logo Alura" />
+    </header>
+
+    <main class="content-user">
+      <article class="article-a1"></article>
+      <article class="article-a2">
+        <div class="input-user">
+          <input
+            type="text"
+            id="text-input"
+            placeholder="Insira o seu texto:"
+          />
+        </div>
+
+        <div class="actions-user">
+          <div class="title-actions">
+            <h2>Apenas letras minúsculas e sem acento.</h2>
+          </div>
+
+          <div class="buttons">
+            <button id="criptografar">Criptografar</button>
+            <button id="descriptografar">Descriptografar</button>
+          </div>
+        </div>
+      </article>
+      <article class="article-a3">
+        <div class="imagem-boneca">
+          <img src="imgs/High quality products 1 1.svg" alt="" />
+        </div>
+
+        <div class="title-error">
+          <h1>Nenhuma mensagem encontrada</h1>
+          <p id="result">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+        <div class="button-copy">
+          <button id="Copiar">Copiar</button>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="aboutme">
+        <h2>Feito por El Castillo</h2>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
