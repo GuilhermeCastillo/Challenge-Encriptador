@@ -72,7 +72,7 @@ body {
 
 .input-user textarea {
   text-transform: lowercase;
-  position: fixed;
+  /* position: fixed; */
   width: 68%;
   height: 66rem;
   background-color: transparent;
