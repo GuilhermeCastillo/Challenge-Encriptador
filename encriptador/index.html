@@ -24,11 +24,15 @@
       <article class="article-a1"></article>
       <article class="article-a2">
         <div class="input-user">
-          <input
+          <!-- <input
             type="text"
             id="text-input"
             placeholder="Insira o seu texto:"
-          />
+            oninput="replicarTexto()"
+          /> -->
+
+          <textarea id="text-input" placeholder="Digite aqui..." oninput="replicarTexto()"></textarea>
+
         </div>
 
         <div class="actions-user">
@@ -47,14 +51,14 @@
           <img src="imgs/High quality products 1 1.svg" alt="" />
         </div>
 
-        <div class="title-error">
-          <h1>Nenhuma mensagem encontrada</h1>
+        <div id="showText" class="title-error">
+          <h1 class="h1-error">Nenhuma mensagem encontrada</h1>
           <p id="result">
             Digite um texto que você deseja criptografar ou descriptografar.
           </p>
         </div>
         <div class="button-copy">
-          <button id="Copiar">Copiar</button>
+          <button id="copiar">Copiar</button>
         </div>
       </article>
     </main>

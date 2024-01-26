@@ -41,42 +41,7 @@ body {
   justify-content: space-between;
 }
 
-.article-a3 {
-  background: #ecedf5;
-  margin: 3rem;
-  border-radius: 0.5rem;
-  width: 50rem;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.title-error {
-  height: 20rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-
-.title-error h1 {
-  font-size: 3rem;
-}
-
-.title-error p {
-  font-size: 1.5rem;
-  color: #252525;
-}
-
-.button-copy  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#Copiar {
+#copiar {
   background: rgba(216, 223, 232, 1);
   border: solid rgba(10, 56, 113, 1) 1px;
   color: rgba(10, 56, 113, 1);
@@ -93,8 +58,25 @@ body {
 .input-user {
   height: 15rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+}
+
+.input-user textarea {
+  position: fixed;
+  width: 68%;
+  height: 66rem;
+  background-color: transparent;
+  border: none;
+  padding: 12px 20px;
+  resize: none; /* Impede o redimensionamento */
+  outline: none; /* Remove a borda ao focar */
+  color: rgba(10, 56, 113, 1);
+  font-size: 3.2rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .input-user input[type="text"] {
@@ -103,7 +85,7 @@ body {
   border: none;
   background: transparent;
   color: rgba(10, 56, 113, 1);
-  font-size: 3rem;
+  font-size: 3.2rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -162,6 +144,54 @@ body {
   border-radius: 1rem;
   width: 32rem;
   cursor: pointer;
+}
+
+.article-a3 {
+  background: #ecedf5;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  width: 50rem;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-error {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.title-error h1 {
+  font-size: 3rem;
+}
+
+.title-error p {
+  font-size: 1.5rem;
+  color: #252525;
+}
+
+.title-success {
+  height: 90%;
+}
+
+.title-success h1 {
+  font-size: 3rem;
+}
+
+.title-success p {
+  font-size: 2.4rem;
+  color: #252525;
+}
+
+.button-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {

@@ -3,6 +3,25 @@ function chaves(string, x, y) {
   return result;
 }
 
+function copy_value() {
+  const copyValue = document.getElementById("result");
+  navigator.clipboard.writeText(copyValue.textContent);
+}
+
+function replicarTexto() {
+  let textoInput = document.getElementById("text-input").value;
+
+  document.getElementById("result").textContent = textoInput;
+
+  document.querySelector(".imagem-boneca").style.display = "none"; 
+  document.querySelector(".h1-error").style.display = "none"; 
+
+  let showText = document.querySelector("#showText")
+  showText.classList.remove("title-error")
+  showText.classList.add("title-success")
+
+}
+
 function criptografar() {
   const inputUser = document.getElementById("text-input");
   const paragraph = document.getElementById("result");
@@ -23,7 +42,7 @@ function criptografar() {
   }
 }
 
-function descriptografar(msg) {
+function descriptografar() {
   const inputUser = document.getElementById("text-input");
   const paragraph = document.getElementById("result");
 
@@ -47,3 +66,4 @@ document.querySelector("#criptografar").addEventListener("click", criptografar);
 document
   .querySelector("#descriptografar")
   .addEventListener("click", descriptografar);
+document.querySelector("#copiar").addEventListener("click", copy_value);
