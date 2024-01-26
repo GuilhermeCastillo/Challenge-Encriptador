@@ -11,15 +11,14 @@ function copy_value() {
 function replicarTexto() {
   let textoInput = document.getElementById("text-input").value;
 
-  document.getElementById("result").textContent = textoInput;
+  document.getElementById("result").textContent = textoInput.toLowerCase();
 
-  document.querySelector(".imagem-boneca").style.display = "none"; 
-  document.querySelector(".h1-error").style.display = "none"; 
+  document.querySelector(".imagem-boneca").style.display = "none";
+  document.querySelector(".h1-error").style.display = "none";
 
-  let showText = document.querySelector("#showText")
-  showText.classList.remove("title-error")
-  showText.classList.add("title-success")
-
+  let showText = document.querySelector("#showText");
+  showText.classList.remove("title-error");
+  showText.classList.add("title-success");
 }
 
 function criptografar() {

@@ -63,6 +63,7 @@ body {
 }
 
 .input-user textarea {
+  text-transform: lowercase;
   position: fixed;
   width: 68%;
   height: 66rem;
@@ -79,7 +80,7 @@ body {
   user-select: none;
 }
 
-.input-user input[type="text"] {
+/* .input-user input[type="text"] {
   width: 50%;
   padding: 12px 20px;
   border: none;
@@ -91,7 +92,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   outline: none;
-}
+} */
 
 .actions-user {
   height: 13rem;
