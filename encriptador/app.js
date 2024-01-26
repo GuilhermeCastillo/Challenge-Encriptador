@@ -66,3 +66,23 @@ document
   .querySelector("#descriptografar")
   .addEventListener("click", descriptografar);
 document.querySelector("#copiar").addEventListener("click", copy_value);
+
+// Get the text input
+const input = document.getElementById('text-input');
+
+// Add keypress event listener
+input.addEventListener('keypress', function(event){
+    
+    // Get the key 
+    let key = event.key;
+    
+    let regex = new RegExp("^[a-zA-Z0-9]+$");
+    
+    // Check if key is in the reg exp
+    if(!regex.test(key)){
+        
+        // Restrict the special characters
+        event.preventDefault();  
+        return false;
+    }
+});
