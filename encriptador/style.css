@@ -148,7 +148,7 @@ body {
 }
 
 .article-a3 {
-  background: #ecedf5;
+  background: #f7f7f7;
   margin: 3rem;
   border-radius: 0.5rem;
   width: 50rem;
@@ -177,6 +177,7 @@ body {
 }
 
 .title-success {
+  width: 30rem;
   height: 90%;
 }
 
@@ -187,6 +188,7 @@ body {
 .title-success p {
   font-size: 2.4rem;
   color: #252525;
+  overflow-wrap: break-word;
 }
 
 .button-copy {
