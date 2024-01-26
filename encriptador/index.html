@@ -16,79 +16,81 @@
     <title>Encriptador</title>
   </head>
   <body>
-    <header class="header-container">
-      <img src="imgs/Logo.png" alt="Logo Alura" />
-    </header>
-
     <main class="content-user">
-      <article class="article-a1"></article>
-      <article class="article-a2">
-        <div class="input-user">
-          <!-- <input
-            type="text"
-            id="text-input"
-            placeholder="Insira o seu texto:"
-            oninput="replicarTexto()"
-          /> -->
+      <header class="header-container">
+        <img src="imgs/Logo.png" alt="Logo Alura" />
+      </header>
 
-          <textarea
-            id="text-input"
-            placeholder="Digite aqui..."
-            oninput="replicarTexto()"
-          ></textarea>
-        </div>
+      <section class="section-content">
+        <article class="article-a1"></article>
+        <article class="article-a2">
+          <div class="input-user">
+            <!-- <input
+              type="text"
+              id="text-input"
+              placeholder="Insira o seu texto:"
+              oninput="replicarTexto()"
+            /> -->
 
-        <div class="actions-user">
-          <div class="title-actions">
-            <h2>Apenas letras minúsculas e sem acento.</h2>
+            <textarea
+              id="text-input"
+              placeholder="Digite aqui..."
+              oninput="replicarTexto()"
+            ></textarea>
           </div>
 
-          <div class="buttons">
-            <button id="criptografar">Criptografar</button>
-            <button id="descriptografar">Descriptografar</button>
-          </div>
-        </div>
-      </article>
-      <article class="article-a3">
-        <div class="imagem-boneca">
-          <img src="imgs/High quality products 1 1.svg" alt="" />
-        </div>
+          <div class="actions-user">
+            <div class="title-actions">
+              <h2>Apenas letras minúsculas e sem acento.</h2>
+            </div>
 
-        <div id="showText" class="title-error">
-          <h1 class="h1-error">Nenhuma mensagem encontrada</h1>
-          <p id="result">
-            Digite um texto que você deseja criptografar ou descriptografar.
-          </p>
+            <div class="buttons">
+              <button id="criptografar">Criptografar</button>
+              <button id="descriptografar">Descriptografar</button>
+            </div>
+          </div>
+        </article>
+        <article class="article-a3">
+          <div class="imagem-boneca">
+            <img src="imgs/High quality products 1 1.svg" alt="" />
+          </div>
+
+          <div id="showText" class="title-error">
+            <h1 class="h1-error">Nenhuma mensagem encontrada</h1>
+            <p id="result">
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+          <div class="button-copy">
+            <button id="copiar">Copiar</button>
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        <h2>Feito por El Castillo</h2>
+        <div class="aboutme">
+          <a
+            href="https://www.linkedin.com/in/guilherme-castilho/"
+            target="_blank"
+          >
+            <img
+              id="linkedin"
+              src="imgs/icons8-linkedin.gif"
+              alt="logo-linkedin"
+            />
+          </a>
+          <a href="https://github.com/GuilhermeCastillo" target="_blank">
+            <img
+              id="github"
+              src="imgs/icons8-github.gif"
+              alt="logo-github"
+              width="22px"
+            />
+          </a>
         </div>
-        <div class="button-copy">
-          <button id="copiar">Copiar</button>
-        </div>
-      </article>
+      </footer>
     </main>
-
-    <footer>
-      <h2>Feito por El Castillo</h2>
-      <div class="aboutme">
-        <a
-          href="https://www.linkedin.com/in/guilherme-castilho/"
-          target="_blank"
-        >
-          <img
-            id="linkedin"
-            src="imgs/icons8-linkedin.gif"
-            alt="logo-linkedin"
-          />
-        </a>
-        <a href="https://github.com/GuilhermeCastillo" target="_blank">
-          <img
-            id="github"
-            src="imgs/icons8-github.gif"
-            alt="logo-github"
-            width="22px"
-          />
-        </a>
-      </div>
-    </footer>
 
     <script src="app.js"></script>
   </body>
