@@ -29,7 +29,7 @@ body {
 
 .section-content {
   height: 80.8rem;
-  display: flex;  
+  display: flex;
   justify-content: space-around;
 }
 
@@ -224,16 +224,76 @@ footer .aboutme {
     /* background: chocolate; */
     display: flex;
     flex-direction: column;
-    background: yellowgreen;
   }
 
-
   .section-content {
-    height: 80.8rem;
+    height: 74rem;
     display: flex;
-    flex-direction: col;
-    
+    flex-direction: column;
+
     justify-content: space-around;
   }
 
+  .article-a1 {
+    display: none;
+  }
+
+  .article-a2 {
+    width: 98vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .input-user {
+    height: 39.4rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+  }
+  
+  .input-user textarea {
+    text-transform: lowercase;
+    /* position: fixed; */
+    width: 68%;
+    height: 66rem;
+    background-color: transparent;
+    border: none;
+    padding: 12px 20px;
+    resize: none; /* Impede o redimensionamento */
+    outline: none; /* Remove a borda ao focar */
+    color: rgba(10, 56, 113, 1);
+    font-size: 3.2rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .actions-user {
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttons {
+    width: 66.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .article-a3 {
+    background: #f7f7f7;
+    border-radius: 0.7rem;
+    width: 75rem;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
