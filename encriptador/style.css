@@ -202,3 +202,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+footer .aboutme {
+  display: flex;
+  justify-content: space-between;
+}
