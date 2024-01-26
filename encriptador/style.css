@@ -29,9 +29,7 @@ body {
 
 .section-content {
   height: 80.8rem;
-  display: flex;
-  flex-direction: col;
-  
+  display: flex;  
   justify-content: space-around;
 }
 
@@ -217,4 +215,25 @@ footer {
 footer .aboutme {
   display: flex;
   justify-content: space-between;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media screen and (max-width: 820px) {
+  .content-user {
+    height: 96.5rem;
+    /* background: chocolate; */
+    display: flex;
+    flex-direction: column;
+    background: yellowgreen;
+  }
+
+
+  .section-content {
+    height: 80.8rem;
+    display: flex;
+    flex-direction: col;
+    
+    justify-content: space-around;
+  }
+
 }
