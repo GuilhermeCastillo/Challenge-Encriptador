@@ -298,6 +298,10 @@ footer .aboutme {
     justify-content: space-around;
   }
 
+  .imagem-boneca {
+    display: none;
+  }
+
   #copiar {
     background: rgba(216, 223, 232, 1);
     border: solid rgba(10, 56, 113, 1) 1px;
